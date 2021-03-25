@@ -1,0 +1,38 @@
+{
+  "name": "sauce-demo",
+  "version": "0.0.1",
+  "description": "QE Testing and Automation Challenge V3",
+  "main": "index.js",
+  "private": true,
+  "eslintConfig": {
+    "extends": "cypress"
+  },
+  "scripts": {
+    "run": "cypress run",
+    "mochaReporter": "cypress run --spec cypress/integration/swaglabsSpec.js --reporter mochawesome",
+    "headTest": "cypress run --headed",
+    "chromeTest": "cypress run --browser chrome",
+    "recordDashboardTest": "cypress run --record --key **insertKey** --reporter moochawesome",
+    "cypress:gui": "cypress open",
+    "cypress:headless": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@sheriff.github.com:SheriffSanni/sauceDemo-cypress-automation.git"
+  },
+  "keywords": [
+    "QE",
+    "Automation",
+    "Web",
+    "API"
+  ],
+  "author": "Sheriff",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "cypress-tags": "^0.0.17",
+    "cypress-xpath": "^1.6.1",
+    "mocha": "^8.1.3",
+    "mochawesome": "^6.1.1"
+  }
+}

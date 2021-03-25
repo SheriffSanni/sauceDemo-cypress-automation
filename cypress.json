@@ -1,0 +1,16 @@
+{
+    "fixturesFolder": "cypress/fixtures",
+    "integrationFolder": "cypress/integration",
+    "pluginsFile": "cypress/plugins/index.js",
+    "screenshotsFolder": "cypress/screenshots",
+    "supportFile": "cypress/support/index.js",
+    "videosFolder": "cypress/videos",
+    "chromeWebSecurity": false,
+    "projectId": "sauce-demo",
+    "defaultCommandTimeout": 1000,
+    "responseTimeout": 1000,
+    "reporter": "mochawesome",
+    "viewportWidth": 1280,
+    "viewportHeight": 664,
+    "mailHogUrl": "http://0.0.0.0:8025/"
+}
